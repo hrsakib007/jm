@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+
+.nab ul li a {
+  color: #000000 !important;
+  margin: 0px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  line-height: 22px;
+  position: relative;
+  display: block;
+}
+.nab ul .active {
+  border: 1px solid #ddd;
+  border-bottom: 2px solid orange;
+}
+
+.nab ul li :hover {
+  border: 1px solid #ddd;
+  border-bottom: 2px solid orange;
+}
+
+/* Article */
+.wb h3:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* right side article */
+.wr p {
+  margin-bottom: 0 !important;
+}
+.wr img {
+  height: 150px;
+  width: 180px;
+}
+.hablu {
+  height: 25px !important;
+  width: 175px !important;
+}
